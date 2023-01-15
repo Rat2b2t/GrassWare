@@ -1,0 +1,431 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Medium.ttf)
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #111 url(https://wallpaperaccess.com/full/6555172.jpg);
+    background-size: cover;
+    font-family: roboto, sans-serif;
+    font-size: 12pt;
+    font-weight: 200;
+    color: #fff
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0
+}
+
+p,
+ol,
+ul {
+    margin-top: 0
+}
+
+ol,
+ul {
+    padding: 0;
+    list-style: none
+}
+
+p {
+    line-height: 180%
+}
+
+strong {}
+
+a {
+    color: #8584ff
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200px
+}
+
+.image {
+    display: inline-block
+}
+
+.image img {
+    display: block;
+    width: 100%
+}
+
+.image-full {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em
+}
+
+.image-left {
+    float: left;
+    margin: 0 2em 2em 0
+}
+
+.image-centered {
+    display: block;
+    margin: 0 0 2em
+}
+
+.image-centered img {
+    margin: 0 auto;
+    width: auto
+}
+
+ul.style1 {}
+
+ul.contact {
+    margin: 0;
+    padding: 2em 0 0;
+    list-style: none
+}
+
+ul.contact li {
+    display: inline-block;
+    padding: 0 .3em;
+    font-size: 1em
+}
+
+ul.contact li span {
+    display: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.contact li a {
+    color: #fff
+}
+
+ul.contact li a:before {
+    display: inline-block;
+    background: #3f3f3f;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff
+}
+
+ul.contact li a.icon-twitter:before {
+    background: #2daae4
+}
+
+ul.contact li a.icon-facebook:before {
+    background: #39599f
+}
+
+ul.contact li a.icon-dribbble:before {
+    background: #c4376b
+}
+
+ul.contact li a.icon-tumblr:before {
+    background: #31516a
+}
+
+ul.contact li a.icon-rss:before {
+    background: #f2600b
+}
+
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: .1em;
+    margin-top: 2em;
+    padding: 1.4em 3em;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: roboto, sans-serif;
+    color: #fff
+}
+
+.enabledbutton {
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: .1em;
+    margin-top: 2em;
+    padding: 1.4em 3em;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: roboto, sans-serif;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer
+}
+
+.disabledbutton {
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: .1em;
+    margin-top: 2em;
+    padding: 1.4em 3em;
+    border: 2px solid #7f7f7f;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: roboto, sans-serif;
+    color: #7f7f7f;
+    background-color: transparent
+}
+
+.button-alt {
+    padding: 1em 2em;
+    border-color: #fff;
+    color: #fff
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 235px
+}
+
+.box1,
+.box2,
+.box3,
+    {
+    float: left;
+    margin-right: 20px
+}
+
+.box4 {
+    float: right
+}
+
+.boxA,
+.boxB,
+.boxC {
+    width: 384px
+}
+
+.boxA,
+.boxB {
+    float: left;
+    margin-right: 20px
+}
+
+.boxC {
+    float: right
+}
+
+.tbox1,
+.tbox2 {
+    width: 575px
+}
+
+.tbox1 {
+    float: left
+}
+
+.tbox2 {
+    float: right
+}
+
+.title {
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em
+}
+
+.title h2 {
+    font-size: 2.7em
+}
+
+.title .byline {
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, .6)
+}
+
+#wrapper {
+    position: relative;
+    padding: 5em 0 7em;
+    background: #23272a
+}
+
+#header-wrapper {
+    position: relative;
+    padding: 0 0 7em
+}
+
+#header {
+    position: relative;
+    padding: 5em 0
+}
+
+
+#logo h1 {
+    font-size: 2.6em;
+    color: #79c255
+}
+
+#logo a {
+    text-decoration: none;
+    color: #fff
+}
+
+#logo img {
+    vertical-align: middle
+}
+
+#menu {
+    position: absolute;
+    top: 4.5em;
+    right: 0
+}
+
+#menu ul {
+    display: inline-block
+}
+
+#menu li {
+    display: block;
+    float: left;
+    text-align: center
+}
+
+#menu li a,
+#menu li span {
+    padding: 1em 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    color: rgba(255, 255, 255, .8)
+}
+
+#menu li:hover a,
+#menu li.active a,
+#menu li.active span {}
+
+#menu .active a {
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #fff
+}
+
+#menu .icon {}
+
+#banner {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+    border-radius: 40px;
+    background: #111 url(https://i.pinimg.com/originals/99/74/43/997443f3aab451da01869a2f10d0dc62.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .title h2 {
+    font-size: 4em
+}
+
+#banner .title .byline {
+    font-size: 2em
+}
+
+#banner .button {
+    margin-top: 2em;
+    padding: 1.4em 3em;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1em
+}
+
+#page {}
+
+#content {}
+
+#sidebar {}
+
+#footer {}
+
+#copyright {
+    overflow: hidden;
+    padding: 5em 0;
+    border-top: 1px solid rgba(0, 0, 0, .08)
+}
+
+#copyright p {
+    text-align: center;
+    font-size: 1em;
+    color: rgba(255, 255, 255, .3)
+}
+
+#copyright a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .6)
+}
+
+#welcome {
+    position: relative;
+    padding: 7em 0;
+    text-align: center
+}
+
+#welcome .container {
+    width: 1000px;
+    padding: 0 100px;
+    color: rgba(255, 255, 255, .8)
+}
+
+#welcome a {
+    color: #fff
+}
+
+#three-column {
+    text-align: center;
+    color: #fff
+}
+
+#three-column .fa {
+    display: block;
+    padding: 1em 0;
+    color: #fff;
+    font-size: 2em
+}
+
+#three-column .title h2 {
+    font-weight: 700;
+    color: #fff
+}
+
+#three-column .title .byline {
+    text-align: center;
+    color: #fff
+}
+
+.inlineList {
+    columns: 5;
+    -webkit-columns: 5;
+    -moz-columns: 5
+}
+
+.inlineList li {
+    padding-bottom: 5px;
+    margin-right: 20px
+}
