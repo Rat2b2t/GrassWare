@@ -3,5 +3,5 @@ function enableButton() {
 }
 
 function buy() {
-    window.open("https://discord.gg/F8CgSByvmf"
+    window.open("https://discord.gg/DckhMeSM4H"
     )}
